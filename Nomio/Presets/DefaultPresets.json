@@ -1,0 +1,18 @@
+[
+  {
+    "PresetName": "S1E1 (Multi: S1E1-E2)",
+    "PresetDescription": "Non case-sensitve. Can contain spaces between any numbers and letters. Numbers can contain leading-zeroes (e.g. S01E01).\n\nWill also match:\n(S1 E1) or (S 1 E 1)\n\nMulti Eps Matches: \n(S1E1 - E2) or (S1 E1 - E2) or (S1E1 E2) or (S1 E1 E2). \nCan also include spaces between numbers and letters.",
+    "RegexSingleEpisode": "[Ss]\\s?\\d+\\s?[Ee]\\s?\\d+",
+    "RegexMultiEpisode": "[Ss]\\s?\\d+\\s?[Ee]\\s?\\d+\\s?-?\\s?[Ee]\\s?\\d+",
+    "RegexSeasonOnly": "[Ss]\\s?\\d+",
+    "RegexEpisodeOnly": "[Ee]\\s?\\d+"
+  },
+  {
+    "PresetName": "Season1Episode1 (Multi: Season1Episode1-Episode2)",
+    "PresetDescription": "Non case-sensitve. Can contain spaces between any numbers and letters. Numbers can contain leading-zeroes (e.g. Season01Episode01).\n\nWill also match:\n(Season1 Episode1) or (Season 1 Episode 1)\n\nMulti Eps Matches:\n(Season1Episode1 - Episode2) or (Season1 Episode1 - Episode2) or (Season1Episode1 Episode2) or (Season1 Episode1 Episode2). \nCan also include spaces between numbers and letters.",
+    "RegexSingleEpisode": "[Ss]eason\\s?\\d+\\s?[Ee]pisode\\s?\\d+",
+    "RegexMultiEpisode": "[Ss]eason\\s?\\d+\\s?[Ee]pisode\\s?\\d+\\s?-?\\s?[Ee]pisode\\s?\\d+",
+    "RegexSeasonOnly": "[Ss]eason\\s?\\d+",
+    "RegexEpisodeOnly": "[Ee]pisode\\s?\\d+"
+  }
+]
